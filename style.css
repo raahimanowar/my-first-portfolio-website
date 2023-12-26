@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Inter;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.1em;
+    color: red;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.home {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 7.5%;
+}
+
+.home_content {
+    justify-content: space-between;
+    width: 100%;
+}
+.home_content h1 {
+    color: red;
+    font-size: 3em;
+}
+
+.home_content h3{
+    font-size: 1.5em;
+}
+
+.about {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 7.5%;
+}
+
+.about_content {
+    width: 100%;
+}
+
+.about_content h4{
+    color: red;
+    font-size: 1.5em;
+}
+
+.projects {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 7.5%;
+}
+
+.projects_content {
+    width: 100%;
+}
+
+.projects_content h4{
+    color: red;
+    font-size: 1.5em;
+}
+
+.contact {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0 7.5%;
+}
+
+.contact_content{
+    position: absolute;
+    right: 10%;
+}
+
+.contact_content h4{
+    color: red;
+    font-size: 1.5em;
+}
+
+.contact_content a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    padding-right: 10px;
+}
+
+.contact_content p:hover, a:hover{
+    color: red;
+}
+
+
+.contact_vec {
+    width: 30%;
+    align-self: auto;
+    position: absolute;
+    left: 10%;
+}
+
+footer{
+    display: block;
+    height: 12vh;
+    color: red;
+    background-color: white;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    background-color: white;
+    color: red;
+}
+
+/* Breakpoints*/
+
+.container {
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  /* 2xl */
+  @media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  }
