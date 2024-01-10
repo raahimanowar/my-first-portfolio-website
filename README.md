@@ -1,2 +1,2 @@
-# v1
+# HTML & CSS website
 My first portfolio website
