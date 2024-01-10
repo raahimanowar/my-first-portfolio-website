@@ -126,6 +126,7 @@
 footer{
     display: block;
     height: 12vh;
+    line-height: 12vh;
     color: red;
     background-color: white;
     font-size: 0.9em;
